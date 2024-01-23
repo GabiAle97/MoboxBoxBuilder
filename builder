@@ -21,7 +21,6 @@ mkdir build; cd build; cmake .. -DARM_DYNAREC=1 -DCMAKE_BUILD_TYPE=RelWithDebInf
 #make install
 
 
-clear
 if [ -f $dir/box64/build/box64 ] && [ -f $dir/box86/build/box86 ]; then
     echo "Box Binaries built successfully. You can found them in"
     echo "BOX64: $dir/box64/build/box64"
